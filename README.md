@@ -1,3 +1,3 @@
 # grimwild
 
-This might eventually turn into a Grimwild/Moxie System for FoundryVTT v12
+This might eventually turn into a Grimwild/Moxie implementation for FoundryVTT v12
