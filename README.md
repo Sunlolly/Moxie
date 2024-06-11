@@ -1,1 +1,1 @@
-# grimwild-foundry
+# grimwild
