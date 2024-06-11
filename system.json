@@ -1,6 +1,6 @@
 {
-  "id": "grimwild",
-  "title": "Grimwild, a Moxie System",
+  "id": "Moxie",
+  "title": "A FoundryVTT implementation of Moxie, by J. D Maxwell",
   "description": "A human-readable description of your system.",
   "version": "0.1.0",
   "compatibility": {
