@@ -1,7 +1,7 @@
 {
-  "id": "Moxie",
-  "title": "A FoundryVTT implementation of Moxie, by J. D Maxwell",
-  "description": "A human-readable description of your system.",
+  "id": "moxie",
+  "title": "Moxie",
+  "description": "A FoundryVTT implementation of Moxie, by J. D Maxwell"",
   "version": "0.1.0",
   "compatibility": {
     "minimum": "12",
@@ -52,8 +52,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
-  "url": "https://your/hosted/system/repo/",
+  "url": "https://GitHub.com/Sunlolly/Moxie/",
   "background": "systems/mysystem/assets/splash.webp",
-  "manifest": "https://your/hosted/system/repo/system.json",
+  "manifest": "https://GitHub.com/Sunlolly/Moxie/system.json",
   "download": "https://your/packaged/download/archive.zip"
 }
