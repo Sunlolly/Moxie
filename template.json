@@ -1,10 +1,9 @@
 {
 "Actor": {
-  "types": ["hero", "pawn", "villain"],
+  "types": ["party", "character", "npc"],
   "templates": {
     "background": {
-      "biography": "",
-      "hairColor": "blue"
+      "biography": ""
     },
     "resources": {
       "health": {
@@ -19,17 +18,17 @@
       }
     }
   },
-  "hero": {
+  "character": {
     "templates": ["background", "resources"],
     "goodness": {
       "value": 5,
       "max": 10
     }
   },
-  "pawn": {
+  "party": {
     "templates": ["resources"]
   },
-  "villain": {
+  "npc": {
     "templates": ["background", "resources"],
     "wickedness": {
       "value": 5,
@@ -38,20 +37,15 @@
   }
 },
 "Item": {
-  "types": ["weapon", "spell"],
+  "types": ["ability"],
   "templates": {
-    "rarity": {
-      "rarity": "Common",
-      "price": 20
+    "class": {
+      "class": "Fighter",
+      "cost": 1
     }
   },
-  "weapon": {
-    "templates": ["rarity"],
-    "damage": 5
-  },
-  "spell": {
-    "templates": ["rarity"],
-    "cost": 2
+  "ability": {
+    "templates": ["class"]
   }
 }
 }
