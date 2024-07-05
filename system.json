@@ -2,7 +2,7 @@
   "id": "moxie",
   "title": "Moxie",
   "description": "A FoundryVTT implementation of Moxie, by J. D Maxwell",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
